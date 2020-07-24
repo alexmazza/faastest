@@ -18,7 +18,7 @@ module.exports = (event, context) => {
      * browser to understand. */
     if(!redirect) {
         return context
-            .status(400)
+            .status(404)
             .fail("Unknown short URL");
     }
 
