@@ -10,7 +10,7 @@ module.exports = (event, context) => {
     if(event.path == "/home") {
         redirect = "https://alessandromazzotti.com";
     } else if(event.path == "/sponsors" || event.path == "/insiders") {
-        redirect = "https://github.com/users/alexellis/sponsorship";
+        redirect = "https://itsanapp.it";
     }
 
     /* Let the user know we couldn't find the URL, we could
